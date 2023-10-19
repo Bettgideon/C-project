@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        
+        }
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .contact-info {
+            flex: 1;
+        }
+        .contact-form {
+            flex: 1;
+        }
+        .contact-info h2 {
+            font-size: 24px;
+        }
+        .contact-info p {
+            font-size: 18px;
+        }
+        .contact-form input[type="text"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .contact-form button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+           
+        }
+        
+            .contact-form button:hover{
+    background:navy;
+    color:rgba(255, 249, 249, 0.87)
+        }
+        .contact-info .social-icons {
+            margin-top: 20px;
+        }
+        .contact-info .social-icons a {
+            text-decoration: none;
+            color: #007BFF;
+            margin: 0 10px;
+        }
+        .contact-info .social-icons a:hover {
+            background:navy;
+    color:rgba(255, 249, 249, 0.87)
+        }
+        footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #00072D;
+  color: white;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <body bgcolor="#E2EFDE">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="miwidevelopers@outlook.co.ke"> miwidevelopers@gmail.co.ke</p></a>
+            <p>Phone: +254 (790729721)</p>
+            <p>Location: Maseno-Kisumu County , <strong>Kenya</p></strong>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="linkedin-icon.png" alt="Linkedin"></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <input type="text" placeholder="Your Email" name="email" required>
+                <input type="text" placeholder="Full Name" name="name" required>
+                <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            
+            <footer>
+                <p>Powered by <strong><a href="MIWI Developers"> MIWI Developers</p></a></strong>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
